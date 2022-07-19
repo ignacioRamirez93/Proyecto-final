@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignacioRamirez93/Trabajo-final-segunda-entrega-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignacioRamirez93/Trabajo-final-segunda-entrega-/issues"
+  },
+  "homepage": "https://github.com/ignacioRamirez93/Trabajo-final-segunda-entrega-#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

@@ -1,0 +1,27 @@
+@import 'mapas';
+@import 'extends';
+@import 'mixins';
+
+
+.animacion-uno:hover {
+    @extend %animacion1;
+  }
+  
+
+  
+  .color-delfondo {
+    background-color: map-get($colores , bg-gristitulos );
+
+}
+  
+.alturaimagenlogo{
+    @include altomaximo(350px);
+   
+ }
+
+
+  .quitar-style {
+    list-style-type: none;
+  }
+  
+

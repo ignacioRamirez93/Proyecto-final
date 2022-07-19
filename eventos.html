@@ -6,7 +6,18 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Bootstrap demo</title>
+    <!--animaciones-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
+    <meta name="description" content= "Tenemos un evento pensado para vos los 365 dias del año y en todo el pais no te los pierdas">
+    
+    <meta name="keywords" content=" que hacer hoy, eventos, fiestas, que hay en, gastronomia, teatro, musica, deporte, stand up, recitales, tour, clases
+    talleres, recorre, cursos, juntadas, show, este fin de semana">
+
+    <title>¿que hacer hoy?</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
@@ -49,36 +60,30 @@
 
 <!------- fin header ------>
 <!------- logo ------>
+<div class="card">
+  <img src="imagen/logo2 editado.jpg" class="card-img alturaimagenlogo" alt="que haces hoy, eventos, salidas, logo, banner">
+ 
+</div>
 
-    <div class="d-flex justify-content-center"">
-
-        <a href="index.html">
-
-        <img class="animate__animated animate__heartBeat"  src="imagen/LOGO.png" alt="¿Que hacer Hoy?" >
-
-        </a>
-       
-   </div> 
 <!------- fin logo ------> 
 <!------- filtros ------>
 <section >
 
     <nav class="navbar color-delfondo  ">
         <div class="container-fluid ">
-          <a class="navbar-brand">Filtros</a>
+          <a class="navbar-brand ">Filtros</a>
           
         </div>
       </nav>
     </section >
 
-    <section class="p-4 d-flex justify-content-around ">
-    <a class="badge rounded-pill text-bg-primary"  href="#musica">Musica </a>
-    <a class="badge rounded-pill text-bg-secondary"href="#deporte">Deporte </a> 
-    <a class="badge rounded-pill text-bg-success"  href="#teatro"> Teatro </a> 
-    <a class="badge rounded-pill text-bg-danger"   href="#gastronomia">Gastronomia </a> 
-    <a class="badge rounded-pill text-bg-warning"  href="#educativo">Educativo </a> 
-    <a class="badge rounded-pill text-bg-info"     href="#pasatiempos">Pasatiempos</a>
-    <a class="badge rounded-pill text-bg-dark"     href="#otros">Otros</a>
+    <section class="p-4 d-flex justify-content-around  ">
+    <a class="badge rounded-pill text-bg-primary text-decoration-none"  href="#musica">Musica </a>
+    <a class="badge rounded-pill text-bg-secondary text-decoration-none" href="#deporte">Deporte </a> 
+    <a class="badge rounded-pill text-bg-success text-decoration-none"   href="#teatro"> Teatro </a> 
+    <a class="badge rounded-pill text-bg-danger text-decoration-none"    href="#gastronomia">Gastronomia </a> 
+    <a class="badge rounded-pill text-bg-warning text-decoration-none"   href="#educativo">Educativo </a> 
+    <a class="badge rounded-pill text-bg-dark text-decoration-none"      href="#otros">Otros</a>
    </section >
 
 
@@ -89,7 +94,7 @@
 
     <nav class="navbar color-delfondo  pt-3">
         <div class="container-fluid">
-          <a class="navbar-brand"> Eventos cerca de ti </a>
+          <a class="navbar-brand fs-2"> Eventos destacados </a>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -101,54 +106,50 @@
 
     <section>
       <div class="card-group">
-        <div class="card">
-          <img src="https://loremflickr.com/640/480/sport" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+          <div class="card">
+            <img src="imagen/elkuelgue.jpg" class="card-img-top" alt="musica, recitales, show, fiestas, festivales, el kuelgue">
+            <div class="card-body">
+              <h5 class="card-title"> El Kuelgue</h5>
+              <p class="card-text">El Kuelgue agrega una función luego de agotar las entradas para el show del viernes 26 de Agosto.
+                Nueva función, Sábado 27 de agost</p>
+              <a href="https://www.ticketek.com.ar/el-kuelgue/c-complejo-art-media" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted" >Comprar entrada</small></p></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="imagen/vinochacarita.png" class="card-img-top" alt="comida, restaurantes, gastronomia, bar, comer, bebida, vino, chacarita">
+            <div class="card-body">
+              <h5 class="card-title">El vino celebra</h5>
+              <p class="card-text">El Vino Celebra en su 11°. Edición de un Ciclo de Eventos en donde el protagonista es el vino.</p>
+              <a href="https://www.eventbrite.com.ar/e/el-vino-celebra-chacarita-2022-tickets-347976375707?aff=ebdssbdestsearch&keep_tld=1/" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagen/rugby.jpg" class="card-img-top" alt="deporte, partido, ejercicio, juego, rugby, los pumas, wallabies ">
+            <div class="card-body">
+              <h5 class="card-title">Los Pumas VS Wallabies</h5>
+              <p class="card-text">El seleccionado argentino recibirá a Australia en la fecha inaugural del Rugby Championship 2022, el mejor certamen del mundo de selecciones.</p>
+              <a href="https://www.ticketek.com.ar/los-pumas-vs-wallabies/estadio-malvinas-argentinas" class="text-decoration-none" target="_blank"><p class="card-text text-decoration-none"><small class="text-muted ">Comprar entrada</small></p></a>
+            </div>
+          </div>
+  
+          <div class="card">
+            <img src="imagen/realself.jpg"class="card-img-top" alt="real self, experiencia, anonimato, la rural, obra, buenos aires, caba , capital federal">
+            <div class="card-body">
+              <h5 class="card-title">Real Self</h5>
+              <p class="card-text"> Llega a Buenos Aires la primera experiencia inmersiva en total anonimato.Desde el anonimato podemos mostrarnos tal como somos. Ser más verdaderos que nunca.</p>
+              <a href="https://www.laruralticket.com.ar/event/realselfba?gclid=CjwKCAjw5s6WBhA4EiwACGncZeZ_djY2EVbOy2JHfF2bV31x4eGRlgtdyNgsjcFrNXGdcc99T0deZxoCDPYQAvD_BwE" class="text-decoration-none" target="_blank"><p class="card-text "><small class="text-muted">Comprar entrada</small></p></a>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="https://loremflickr.com/640/480/football" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-          </div>
-        </div>
-        <div class="card">
-          <img src="https://loremflickr.com/640/480/basquetball"class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://loremflickr.com/640/480/tennis" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-          </div>
-        </div>
-
-
-
-
-      </div>
-
-      
-
-    </section>
+  
+      </section>
 
    <section>
 
     <nav class="navbar color-delfondo  pt-3">
         <div class="container-fluid">
-          <a class="navbar-brand" id="musica">Musica </a>
+          <a class="navbar-brand fs-2" id="musica">Musica </a>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -161,35 +162,36 @@
     <section>
       <div class="card-group">
         <div class="card">
-          <img src="https://loremflickr.com/640/480/rockandroll" class="card-img-top" alt="...">
+          <img src="imagen/thisismichael.jpg" class="card-img-top" alt="musica, recitales, show, michael jackson, movistar arena">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+            <h5 class="card-title">This is Michael</h5>
+            <p class="card-text">El show sobre el rey del pop llega a la argentina en el Teatro gran rex el 18 de noviembre.</p>
+             <a href="https://www.viagogo.com/ar/Entradas-Conciertos/Pop-Rock/This-is-Michael-Entradas/E-150237433" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
           </div>
         </div>
         <div class="card">
-          <img src="https://loremflickr.com/640/480/jazz" class="card-img-top" alt="...">
+          <img src="imagen/miranda.jpg" class="card-img-top" alt="musica, recitales, show, fiestas, miranda, cordoba, quality espacio">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+            <h5 class="card-title">Miranda!</h5>
+            <p class="card-text">El dúo pop más querido de Argentina regresa a Quality Espacio el jueves 1 de septiembre con un espectáculo que será inolvidable.
+              .</p>
+             <a href="https://www.ticketek.com.ar/miranda/quality-espacio" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
           </div>
         </div>
         <div class="card">
-          <img src="https://loremflickr.com/640/480/rap"class="card-img-top" alt="...">
+          <img src="imagen/primaverasound.jpg"class="card-img-top" alt="musica, recitales, show, fiestas, festivales, primavera sound">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+            <h5 class="card-title">Primavera sound</h5>
+            <p class="card-text">Será el evento inaugural que dará la bienvenida a la primera edición de Primavera Sound en Buenos Aires: una apertura que contará con shows en vivo de grandes nombres internacionales.</p>
+             <a href="https://www.allaccess.com.ar/event/primavera-sound?gclid=CjwKCAjw5s6WBhA4EiwACGncZWCbTBQrqBZ0W3XBeM77ALodr1coraMB9l-sPZ39kspHBWnmhwmcORoC4GIQAvD_BwE"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
           </div>
         </div>
         <div class="card">
-          <img src="https://loremflickr.com/640/480/drums" class="card-img-top" alt="...">
+          <img src="imagen/wos.jpg" class="card-img-top" alt="musica, recitales, show, rap, wos, trap, wos, argentinos juniors">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-             <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+            <h5 class="card-title">Wos</h5>
+            <p class="card-text">El mítico estadio Diego Armando Maradona será la última parada del año para Valentín Oliva, mejor conocido como Wos, y su gira “Oscuro Éxtasis”, con la que ya recorrió 11 ciudades y se presentó frente a más de 66 mil personas.</p>
+             <a href="https://www.rowticket.com/ar/evento/wos-28-10/?gclid=CjwKCAjw5s6WBhA4EiwACGncZRZcHj3VWmFyTS6o97agH414vLJYqxDlGTKCJtu-GU4ff2BTtxJ9JhoCBL0QAvD_BwE"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
           </div>
         </div>
       </div>
@@ -201,7 +203,7 @@
 
         <nav class="navbar color-delfondo  pt-3">
             <div class="container-fluid">
-              <a class="navbar-brand"id="deporte">Deporte</a>
+              <a class="navbar-brand fs-2"id="deporte">Deporte</a>
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -214,35 +216,35 @@
         <section>
           <div class="card-group">
             <div class="card">
-              <img src="https://loremflickr.com/640/480/football" class="card-img-top" alt="...">
+              <img src="imagen/premierepadel.jpg" class="card-img-top" alt="deporte, premier padel, mendoza">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                <h5 class="card-title">Premier Padel</h5>
+                <p class="card-text"> Llega el Premier Pádel a Mendoza Será del 8 al 14 de agosto en el estadio Aconcagua Arena en Mendoza</p>
+                 <a href="https://ventas.autoentrada.com/events/abono-argentina-premier-padel" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
               </div>
             </div>
             <div class="card">
-              <img src="https://loremflickr.com/640/480/basquetball" class="card-img-top" alt="...">
+              <img src="imagen/maratonpaternal.jpg" class="card-img-top" alt="deporte, maraton, paternal, 7k, runnig, correr, evento">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                <h5 class="card-title">Maraton de La Paternal</h5>
+                <p class="card-text">La gran carrera barrial de CABA en el Diego Armando Maradona vuelve luego de la pandemia con mas fiesta que nunca.</p>
+                 <a href="https://www.eventbrite.com.ar/e/maraton-de-la-paternal-2022-tickets-308990738617?aff=ebdssbdestsearch"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
               </div>
             </div>
             <div class="card">
-              <img src="https://loremflickr.com/640/480/tennis"class="card-img-top" alt="...">
+              <img src="imagen/rugby.jpg" class="card-img-top" alt="deporte, partido, ejercicio, juego, rugby, los pumas, wallabies ">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                <h5 class="card-title">Los Pumas VS Wallabies</h5>
+                <p class="card-text">El seleccionado argentino recibirá a Australia en la fecha inaugural del Rugby Championship 2022, el mejor certamen del mundo de selecciones.</p>
+                <a href="https://www.ticketek.com.ar/los-pumas-vs-wallabies/estadio-malvinas-argentinas" class="text-decoration-none" target="_blank"><p class="card-text text-decoration-none"><small class="text-muted ">Comprar entrada</small></p></a>
               </div>
             </div>
             <div class="card">
-              <img src="https://loremflickr.com/640/480/hockey" class="card-img-top" alt="...">
+              <img src="imagen/masterflow.jpg" class="card-img-top" alt="liga master flow, esport, lol, league of legends, gaming">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                <h5 class="card-title">Final liga Master Flow</h5>
+                <p class="card-text">La gran final de la Liga Master Flow, organizada por la Liga de Videojuegos Profesional, tendrá lugar el próximo 29 de julio en el Polideportivo San Lorenzo</p>
+                 <a href="https://www.tuentrada.com/eventos/detalle/LMF/702720356665"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
               </div>
             </div>
           </div>
@@ -253,7 +255,7 @@
 
             <nav class="navbar color-delfondo  pt-3">
                 <div class="container-fluid">
-                  <a class="navbar-brand"id="teatro">Teatro</a>
+                  <a class="navbar-brand fs-2"id="teatro">Teatro</a>
                   <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -266,35 +268,35 @@
             <section>
               <div class="card-group">
                 <div class="card">
-                  <img src="https://loremflickr.com/640/480/music" class="card-img-top" alt="...">
+                  <img src="imagen/casiadulto.jpg" class="card-img-top" alt="comedia, teatro, show, stand up, julian bellese, san juan, casi adulto">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                     <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                    <h5 class="card-title">Casi adulto</h5>
+                    <p class="card-text">Juli Bellese vuelve al teatro estrenando su primer unipersonal “Casi Adulto”.Cargado de anécdotas familiares, reflexiones sobre dar los primeros pasos en el mundo adulto y con la gracia a la que nos tiene acostumbrados. Un espectáculo que promete risas desde el primer minuto.</p>
+                     <a href="https://www.ticketek.com.ar/julian-bellese/quality-espacio" class="text-decoration-none"  target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                   </div>
                 </div>
                 <div class="card">
-                  <img src="https://loremflickr.com/640/480/theater" class="card-img-top" alt="...">
+                  <img src="imagen/cancionesenorsai.jpg" class="card-img-top" alt="comedia, actor, teatro, show, musica, cuentos">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                     <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                    <h5 class="card-title">Cansiones en Orsai</h5>
+                    <p class="card-text">Lo nuevo del cantautor y el cuentista: canciones y cuentos hasta que uno de los dos se levante de la silla y se vaya sin saludar.</p>
+                     <a href="https://hernancasciari.com/eventos/canciones_en_orsai" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                   </div>
                 </div>
                 <div class="card">
-                  <img src="https://loremflickr.com/640/480/mask"class="card-img-top" alt="...">
+                  <img src="imagen/elmetodo.png"class="card-img-top" alt="comedia, drama, actor, teatro, show, El metodo Grönholm ">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                     <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                    <h5 class="card-title">El metodo Grönholm</h5>
+                    <p class="card-text">Benjamín Vicuña y Laurita Fernández, junto con Rafael Ferro protagonizarán una nueva versión de EL METODO GRÖNHOLM, el éxito teatral escrito por el catalán Jordi Galceran, con dirección de Ciro Zorzoli y producción general de Pablo Kompel.</p>
+                     <a href="https://www.plateanet.com/obra/24178?obra=EL-METODO-GRONHOLM_&paso=inicio" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                   </div>
                 </div>
                 <div class="card">
-                  <img src="https://loremflickr.com/640/480/comedy" class="card-img-top" alt="...">
+                  <img src="imagen/elcircodelanima.jpg" class="card-img-top" alt="circo, flavio mendoza, show, anima">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                     <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                    <h5 class="card-title">El circo del anima</h5>
+                    <p class="card-text">El circo de flavio mendoza es el broche de oro de su carrera. Gracias al circo y sus enseñanzas, tanto artísticas como profesionales, logro llegar a ser el bailarín y coreógrafo creador del show de teatro más exitoso del país.</p>
+                     <a href="https://www.circoanima.com.ar/entradas.html" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                   </div>
                 </div>
               </div>
@@ -305,7 +307,7 @@
 
                 <nav class="navbar color-delfondo  pt-3">
                     <div class="container-fluid">
-                      <a class="navbar-brand" id="gastronomia">Gastronomia</a>
+                      <a class="navbar-brand fs-2" id="gastronomia">Gastronomia</a>
                       <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -318,35 +320,35 @@
                 <section>
                   <div class="card-group">
                     <div class="card">
-                      <img src="https://loremflickr.com/640/480/food" class="card-img-top" alt="...">
+                      <img src="imagen/saboresyartesanos.jpg" class="card-img-top" alt="comida, restaurantes, gastronomia, comer, bebida, feria, cerveza, artesanos, wilde, zona sur">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                         <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                        <h5 class="card-title">Sabores y artesanos</h5>
+                        <p class="card-text">Gran feria de la cerveza artesanal y expo gastronomica en club liga vecinal Wilde la dirección es Rondeau 957 y la entrada es libre y gratuita.</p>
+                         <a href="https://www.eventbrite.com.ar/e/feria-de-la-cerveza-artesanal-y-expo-gastronomia-tickets-378244297877?aff=ebdssbdestsearch"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Conoce màs</small></p></a>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="https://loremflickr.com/640/480/restaurant" class="card-img-top" alt="...">
+                      <img src="imagen/vinochacarita.png" class="card-img-top" alt="comida, restaurantes, gastronomia, bar, comer, bebida, vino, chacarita">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                         <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                        <h5 class="card-title">El vino celebra</h5>
+                        <p class="card-text">El Vino Celebra en su 11°. Edición de un Ciclo de Eventos en donde el protagonista es el vino.</p>
+                        <a href="https://www.eventbrite.com.ar/e/el-vino-celebra-chacarita-2022-tickets-347976375707?aff=ebdssbdestsearch&keep_tld=1/" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="https://loremflickr.com/640/480/drinks"class="card-img-top" alt="...">
+                      <img src="imagen/bsasmarket.jpg"class="card-img-top" alt="comida, gastronomia, comer, bebida, feria, market, buenos aires">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                         <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                        <h5 class="card-title">Buenos Aires Market</h5>
+                        <p class="card-text">Vuelve Buenos Aires Market, con un formato adaptado a la nueva normalidad: solo mercado, sin gastronomía. El sábado 11 de octubre nos vas a encontrar en Parque Chacabuco, en la intersección de Av. Asamblea y Emilio Mitre. Y el domingo 11, en Villa Urquiza, junto a la plaza Esteban Echeverría</p>
+                         <a href="https://www.buenosairesmarket.com/"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Conoce màs</small></p></a>
                       </div>
                     </div>
                     <div class="card">
-                      <img src="https://loremflickr.com/640/480/bar" class="card-img-top" alt="...">
+                      <img src="imagen/catadewhisky.jpg" class="card-img-top" alt="cata, whisky, gastronomia, bar, bebida, alcohol">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                         <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                        <h5 class="card-title">Cata de whisky Argentino</h5>
+                        <p class="card-text">Cata de whisky presencial, en Ciudad Autónoma de Buenos Aires, dictada por Tito Whisky Catamos Whisky Argentino.</p>
+                         <a href="https://titowhisky.com/producto/cata-presencial/" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                       </div>
                     </div>
                   </div>
@@ -359,7 +361,7 @@
 
                         <nav class="navbar color-delfondo  pt-3">
                             <div class="container-fluid">
-                              <a class="navbar-brand" id="educativo">Educativo </a>
+                              <a class="navbar-brand fs-2 " id="educativo">Educativo </a>
                               <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
                                 <button class="btn btn-outline-success" type="submit">Buscar</button>
@@ -372,36 +374,36 @@
                         <section>
                           <div class="card-group">
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/book" class="card-img-top" alt="...">
+                              <img src="imagen/museomoderno.jpg" class="card-img-top" alt="museo, moderno, cultura, arte, obras de arte">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Museo Moderno</h5>
+                                <p class="card-text">El Departamento de Educación construye un puente entre el Moderno y la sociedad con la misión de generar nuevas oportunidades para pensar el arte y la educación y así relacionarnos en una comunidad cultural y socialmente diversa.</p>
+                                 <a href="https://entradas.museomoderno.org/" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                               </div>
                             </div>
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/school" class="card-img-top" alt="...">
+                              <img src="imagen/vangogh.jpg" class="card-img-top" alt="museo, proyeccion, arte, cultura, Van Gogh, proyeccion,">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Van Gogh</h5>
+                                <p class="card-text">La obra que ya vieron más de 14 millones de personas llega al Centro de Convenciones Córdoba del 20 de julio al 21 de agosto.</p>
+                                 <a href="https://www.ticketek.com.ar/van-gogh-el-sueno-inmersivo/complejo-ferial-cordoba" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                               </div>
                             </div>
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/university"class="card-img-top" alt="...">
+                              <img src="imagen/vacaciones-para-armar.jpg"class="card-img-top" alt="niños, vacaciones de invierno, creatividad, educacion, cfk, ingenio, cultura">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Vacaciones para armar</h5>
+                                <p class="card-text">El Centro Cultural Kirchner celebra las vacaciones de invierno con propuestas para las infancias de todo el país. Con la premisa de defender el derecho que tienen los chicos y las chicas a la belleza, al juego y a la participación plena, se ofrecen conciertos, espectáculos escénicos, talleres y juegos, con una mirada integradora, multicultural y respetuosa de las diferencias.</p>
+                                 <a href="https://www.cck.gob.ar/vacaciones-para-armar-infancias-2022/22882/" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Conoce màs</small></p></a>
                               </div>
                             </div>
 
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/library" class="card-img-top" alt="...">
+                              <img src="imagen/feria-del-libro.jpg" class="card-img-top" alt="feria, libros, educacion, niños, chicos, gratuito ">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Feria del libro infantil y juvenil</h5>
+                                <p class="card-text">A través de los años, la Feria Infantil y Juvenil se ha destacado por ser un espacio original y creativo pensado para el incentivo de la cultura, con una oferta múltiple de talleres y actividades vinculadas con la lectura, la escritura y el universo de los libros.</p>
+                                 <a href="https://www.el-libro.org.ar/fundacion/feria-infantil-y-juvenil/" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Conoce màs</small></p></a>
                               </div>
                             </div>
                           </div>
@@ -412,113 +414,56 @@
                     
                         <section>
 
-                        <nav class="navbar color-delfondo  pt-3">
-                            <div class="container-fluid">
-                              <a class="navbar-brand" id="pasatiempos">Pasatiempos </a>
-                              <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                              </form>
-                            </div>
-                          </nav>
-                        </section>
+                          <nav class="navbar color-delfondo  pt-3">
+                              <div class="container-fluid">
+                                <a class="navbar-brand fs-2" id="otros"> Otros </a>
+                                <form class="d-flex" role="search">
+                                  <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
+                                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                </form>
+                              </div>
+                            </nav>
+                          </section>
                     
                     
                         <section>
                           <div class="card-group">
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/chess" class="card-img-top" alt="...">
+                              <img src="imagen/arteyvino.jpg" class="card-img-top" alt="arte, vino, pinturas, cata, educativo, cuadros">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Arte y vino </h5>
+                                <p class="card-text">Te proponemos una experiencia de 2 horas para realizar tu obra de arte guiado por una artista.
+                                 Tendras una consigna para divertirte pintando, mientras disfrutas de unas copas de vino y snacks.</p>
+                                 <a href="https://www.eventbrite.com.ar/e/experiencia-de-pintura-y-vino-guiada-por-una-artista-todos-los-niveles-tickets-378014761327" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                               </div>
                             </div>
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/beach" class="card-img-top" alt="...">
+                              <img src="imagen/tattocordoba.png" class="card-img-top" alt="tatto, tatuajes, cordoba, evento, exposicion">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Còrdoba expo tatto</h5>
+                                <p class="card-text">6ta Córdoba Expo Tattoo Este evento se viene realizando desde el año 2015, como es una costumbre se realizará por tercera vez consecutivamente en Quality Espacio en avenida Cruz Roja al 200 de córdoba capital, los días 9 Y 10 de Octubre.</p>
+                                 <a href="https://www.ticketek.com.ar/expo-tattoo/quality-espacio" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                               </div>
                             </div>
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/city"class="card-img-top" alt="...">
+                              <img src="imagen/fms.jpg"class="card-img-top" alt="fms, rap, batalla de gallos, freestyle ">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Liga profesional de freestyle</h5>
+                                <p class="card-text">Entradas para la fms Argentina que se realizara en la provincia de Corrientes por la jordnada numero 5 de la liga.</p>
+                                 <a href="https://www.paseshow.com.ar/#/eventos/fms-argentina---liga-profesional-de-freestyle" class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                               </div>
                             </div>
                             <div class="card">
-                              <img src="https://loremflickr.com/640/480/music" class="card-img-top" alt="...">
+                              <img src="imagen/parenlamano.jpg" class="card-img-top" alt="radio, vorterix, paren la mano, luquitas rodriguez, comedia, show">
                               <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
+                                <h5 class="card-title">Paren la mano</h5>
+                                <p class="card-text">El fenómeno de Paren La Mano en vivo y con amigos en el Teatro Vorterix Luquitas Rodriguez, Alfre Montes de Oca y German Beder y Amigos.</p>
+                                 <a href="https://www.allaccess.com.ar/event/paren-la-mano-en-vivo-y-con-amigos"  class="text-decoration-none" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
                               </div>
                             </div>
                           </div>
                     
                         </section>
-
-                        
-
-                        <section>
-
-                        <nav class="navbar color-delfondo  pt-3">
-                            <div class="container-fluid">
-                              <a class="navbar-brand" id="otros"> Otros </a>
-                              <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Buscar evento" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
-                              </form>
-                            </div>
-                          </nav>
-                        </section>
-                    
-                    
-                        <section>
-                          <div class="card-group">
-                            <div class="card">
-                              <img src="https://loremflickr.com/640/480/mountain" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="https://loremflickr.com/640/480/tv" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="https://loremflickr.com/640/480/house"class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-                              </div>
-                            </div>
-                            <div class="card">
-                              <img src="https://loremflickr.com/640/480/running" class="card-img-top" alt="...">
-                              <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                 <a href="https://www.ticketek.com.ar/" target="_blank"><p class="card-text"><small class="text-muted">Comprar entrada</small></p></a>
-                              </div>
-                            </div>
-                          </div>
-                    
-                        </section>
-            
-                        
-
-
 
 
 
@@ -531,7 +476,7 @@
 
 <nav class="navbar color-delfondo ">
     <div class="container-fluid">
-      <a class="navbar-brand" id="contacto">Contactanos</a>
+      <h2 class="navbar-brand" id="contacto">Contactanos</h2>
       
     </div>
   </nav>

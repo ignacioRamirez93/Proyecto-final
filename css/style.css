@@ -4,7 +4,11 @@
 }
 
 .color-delfondo {
-  background-color: rgba(215, 215, 215, 0.305);
+  background-color: rgba(185, 183, 183, 0.305);
+}
+
+.alturaimagenlogo {
+  max-height: 350px;
 }
 
 .quitar-style {
